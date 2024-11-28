@@ -1,0 +1,6 @@
+2024-11-20 22:06:19,297 +0530 [main] DEBUG (BaseClass.java:48) - config file loaded successfully
+2024-11-20 22:06:19,299 +0530 [main] DEBUG (BaseClass.java:51) - config file loaded successfully
+2024-11-20 22:06:20,883 +0530 [main] DEBUG (BaseClass.java:62) - Chrome loaded successfully
+2024-11-20 22:06:20,977 +0530 [main] DEBUG (BaseClass.java:71) - Window got maximized successfully
+2024-11-20 22:06:21,425 +0530 [main] DEBUG (BaseClass.java:73) - website loaded successfully
+2024-11-20 22:06:21,893 +0530 [main] DEBUG (CustomerLogin.java:17) - Clicked on Customer Login successfully

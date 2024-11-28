@@ -1,0 +1,4 @@
+home = 
+custLogin = //button[contains(text(),'Customer Login')]
+yourName = //select[contains(@name,'userSelect')]df
+addCustomer = 

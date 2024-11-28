@@ -1,0 +1,38 @@
+package com.project.rough;
+
+import java.util.Arrays;
+
+public class JavaPracTuesday {
+
+	public void revText(String text)
+	{
+		String revText = "";
+		for(int i=text.length()-1;i>=0;i--)
+		{
+			
+			System.out.print(text.charAt(i));
+			System.out.println();
+		}
+	
+	}
+	
+	
+	public void countWord(String Sen)
+	{
+		String[] words = Sen.split(" ");
+		System.out.println("Total count in given sentence is : "+words.length);
+		
+		
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		JavaPracTuesday obj = new JavaPracTuesday();
+		obj.revText("I am Santosh");
+		obj.countWord("I like to play music I mean good music at Night");
+	}
+	
+	
+}

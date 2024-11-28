@@ -1,0 +1,6 @@
+2024-11-19 20:06:41,039 +0530 [main] DEBUG (ProjectBaseClass.java:44) - config file loaded
+2024-11-19 20:06:41,041 +0530 [main] DEBUG (ProjectBaseClass.java:57) - or file loaded
+2024-11-19 20:06:42,507 +0530 [main] DEBUG (ProjectBaseClass.java:66) - Chrome driver launched successfully
+2024-11-19 20:06:42,546 +0530 [main] DEBUG (ProjectBaseClass.java:77) - Browser got maximized successfully
+2024-11-19 20:06:43,150 +0530 [main] DEBUG (ProjectBaseClass.java:79) - Website launched successfully
+2024-11-19 20:06:43,451 +0530 [main] DEBUG (TC_01_Customer_Login.java:18) - Clicked on Customer Login successfully

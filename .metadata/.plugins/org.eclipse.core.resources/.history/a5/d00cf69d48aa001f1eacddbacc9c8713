@@ -1,0 +1,42 @@
+package StringTrickQuestions;
+
+import java.util.HashMap;
+
+public class StringPracSunday {
+	
+	String text = "er2dsfa@2#WE#$^&EFDFHSAadfasf";
+	HashMap<Character, Integer> map = new HashMap<>();
+	
+	public void countChar()
+	{
+		
+		
+		for(int i=0;i<text.length();i++)
+		{
+			char ch = text.charAt(i);
+			if(map.containsKey(ch))
+			{
+				map.put(ch, map.get(ch));
+			}
+			else
+			{
+				map.put(ch, 1);
+			}
+			
+		}
+		System.out.println(map);
+		
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		StringPracSunday obj = new StringPracSunday();
+		obj.countChar();
+	}
+	
+	
+	
+
+}

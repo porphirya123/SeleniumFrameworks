@@ -1,0 +1,28 @@
+package JavaConcepts;
+
+public class JavaBasics {
+
+	public static void main(String[] args) {
+
+		int a =10;
+		int b=20;
+		int c=40;
+		
+		if(a>b && a>c)
+		{
+			System.out.println("The bigger of amoung 3 number is : " + a);
+		}
+		else if(b>a && b>c)
+		{
+			System.out.println("The bigger of amoung 3 number is : " + b);
+		}
+		else if(c>a && c>b)
+		{
+			System.out.println("The bigger of amoung 3 number is : " + c);
+		}
+		
+		
+		
+	}
+
+}

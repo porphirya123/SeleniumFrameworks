@@ -1,0 +1,26 @@
+package JavaConcepts;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ArrayDemo {
+	
+	public static void main(String[] args) {
+		
+		String[] names = {"Ram","Sita","Laxman"};
+		
+		
+		List<String> newnames = Arrays.asList(names);
+		newnames.add("Atharv");
+		
+		for(String l:newnames)
+		{
+			System.out.println(l);	
+		}
+		
+		
+		
+		
+	}
+
+}

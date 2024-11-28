@@ -1,0 +1,47 @@
+package Arrays;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+public class PracSunday {
+	
+	String arr[] = {"Santosh", "Ankita", "Atharv"};
+	String name[] = {"Santosh", "Ankdfita", "Atharv"};
+	int age[] = {2,3,4,6,7};
+	List list = new LinkedList();
+	
+	
+	public void compare()
+	{
+		int result = Arrays.compare(arr, name);
+		if(result==0)
+		{
+			System.out.println("Matched");
+		}else
+		{
+			System.out.println("No match");
+		}
+		
+	}
+	
+		
+		
+	public static void main(String[] args) {
+		
+		PracSunday obj = new PracSunday();
+		obj.compare();
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T13:07:08 IST" name="Default suite" finished-at="2024-11-25T13:07:08 IST" duration-ms="49">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T13:07:08 IST" name="Default test" finished-at="2024-11-25T13:07:08 IST" duration-ms="49">
+      <class name="com.practice.rough.DataProviderDemo">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.practice.rough.DataProviderDemo@b3ca52e]" started-at="2024-11-25T13:07:08 IST" name="login" data-provider="test" finished-at="2024-11-25T13:07:08 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Santosh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.practice.rough.DataProviderDemo@b3ca52e]" started-at="2024-11-25T13:07:08 IST" name="login" data-provider="test" finished-at="2024-11-25T13:07:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Santosh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.practice.rough.DataProviderDemo@b3ca52e]" started-at="2024-11-25T13:07:08 IST" name="login" data-provider="test" finished-at="2024-11-25T13:07:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Santosh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.practice.rough.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

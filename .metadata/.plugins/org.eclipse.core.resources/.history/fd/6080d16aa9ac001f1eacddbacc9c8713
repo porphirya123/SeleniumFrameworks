@@ -1,0 +1,22 @@
+package com.refineproject.utilities;
+
+public class ReadExcel {
+	
+	public static FileInputStream fis;
+	public static XSSFWorkbook workbook;
+	public static XSSFSheet sheet;
+	
+	public void readexcel()
+	{
+		fis = new FileInputStream()
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+
+}

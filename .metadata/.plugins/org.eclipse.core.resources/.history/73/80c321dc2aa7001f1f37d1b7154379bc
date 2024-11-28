@@ -1,0 +1,71 @@
+package com.project.BaseClass;
+
+import java.io.FileInputStream;
+import java.time.Duration;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+public class BaseClass {
+	
+	public static WebDriver driver;
+	public static Properties config = new Properties();
+	public static Properties or = new Properties();
+	public static FileInputStream fis;
+	public static WebDriverWait wait;
+	public static Logger log = Logger.getLogger("devpinoyLogger");
+	
+	
+	@BeforeSuite
+	public static void setup()
+	{
+		
+	
+	if(driver==null)
+	{
+		try {
+			
+			fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\propertyFile\\config.properties");
+			config.load(fis);
+			fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\propertyFile\\or.properties");
+			or.load(fis);
+		}catch(Exception e)
+		{
+			System.out.println("Something went wrong");
+		}
+		
+	}
+	if(config.getProperty("browser").equals("chrome"))
+	{
+		driver= new ChromeDriver();
+	}
+	else if(config.getProperty("browser").equals("firefox"))
+	{
+		driver = new FirefoxDriver();
+	}
+	
+	driver.manage().window().maximize();
+	driver.get(config.getProperty("websiteurl"));
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	
+		
+	}
+	
+	
+	@AfterSuite
+	public void teardown()
+	{
+		driver.quit();
+	}
+	
+	
+	
+	
+
+}

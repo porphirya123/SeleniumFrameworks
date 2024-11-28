@@ -1,0 +1,4 @@
+2024-11-27 21:35:06,983 +0530 [main] DEBUG (ProjectBaseClass.java:33) - Config file loaded successfully
+2024-11-27 21:35:06,985 +0530 [main] DEBUG (ProjectBaseClass.java:38) - OR file loaded successfully
+2024-11-27 21:35:08,382 +0530 [main] DEBUG (ProjectBaseClass.java:47) - Chrome Launched!!
+2024-11-27 21:35:09,005 +0530 [main] DEBUG (ProjectBaseClass.java:60) - Website Launched!!

@@ -1,0 +1,27 @@
+package Frameworks;
+
+public class HashMapDemo {
+	
+	String str= "dsaaf3edfsfas";
+	
+	HashMap<String, Integer> = new HashMap<String, Integer>();
+	
+	
+	public void countCharacter()
+	{
+		
+		for(int i=0;i<str.length();i++)
+		{
+			char ch = str.charAt(i);
+			if()
+			
+			
+			
+		}
+		
+		
+		
+	}
+	
+
+}

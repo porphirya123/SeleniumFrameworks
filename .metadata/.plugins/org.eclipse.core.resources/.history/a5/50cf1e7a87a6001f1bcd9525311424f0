@@ -1,0 +1,24 @@
+package com.projectTestCases;
+
+import javax.swing.text.Utilities;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.projectBaseClass.ProjectBaseClass;
+
+public class TC_01_Customer_Login extends ProjectBaseClass{
+	
+	@Test
+	public void CustomerLogin()
+	{
+		
+	
+		driver.findElement(By.xpath(or.getProperty("custLogin"))).click();
+		log.debug("Clicked on Customer Login successfully");
+		getScreenshot();
+		
+		
+	}
+
+}

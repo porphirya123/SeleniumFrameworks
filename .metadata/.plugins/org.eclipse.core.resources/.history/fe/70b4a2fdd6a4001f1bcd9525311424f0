@@ -1,0 +1,54 @@
+package com.seleniumbasics.practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class SelectClassDemo {
+	
+	public static void main(String[] args) {
+		
+		WebDriver driver;
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.way2automation.com/angularjs-protractor/banking/#/login");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		WebElement bankmanagerLogin = driver.findElement(By.xpath("//button[contains(text(),'Bank Manager Login')]"));
+		WebElement customerLogin = driver.findElement(By.xpath("//button[contains(text(),'Customer Login')]"));
+		WebElement home =  driver.findElement(By.xpath("(//button[contains(text(),'Home')])[1]"));
+		Actions act = new Actions(driver);
+		act.moveToElement(bankmanagerLogin).click().perform();
+		act.click(home).perform();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		act.moveToElement(customerLogin).click().perform();
+		
+		WebElement selectvalue = driver.findElement(By.xpath("//select[contains(@id, 'userSelect')]"));
+		
+		Select sl = new Select(selectvalue);
+		sl.selectByValue("Harry Potter");
+		
+		
+		
+		
+		
+		//act.click(bankmanagerLogin).perform();
+		
+		
+	}
+	
+
+}

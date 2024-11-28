@@ -1,0 +1,65 @@
+package JavaConcepts;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ArrayDemo {
+	
+	
+	public static void arraymethods()
+	{
+		int[] rolls = new int[5];
+		rolls[0]=5;
+		rolls[1]=4;
+		rolls[2]=20;
+		rolls[3]=8;
+		
+		int[] rollnums = Arrays.copyOf(rolls, rolls.length);
+		
+		Arrays.sort(rolls);
+		
+		for(int roll:rolls)
+		{
+			System.out.println(roll);
+		}
+		
+		
+		Arrays.fill(rollnums, 100);
+		for(int r:rollnums)
+		{
+			System.out.println(r);
+		}
+		
+		
+		System.out.println(Arrays.equals(rolls, rollnums));
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		String[] names = {"Ram","Sita","Laxman"};
+		
+		
+		List<String> newnames = Arrays.asList(names);
+		
+		
+		for(String l:newnames)
+		{
+			System.out.println(l);	
+		}
+		
+		arraymethods();
+			
+		
+		
+		
+	}
+
+}

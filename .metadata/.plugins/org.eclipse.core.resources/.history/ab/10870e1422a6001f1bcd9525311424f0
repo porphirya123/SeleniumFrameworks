@@ -1,0 +1,31 @@
+package JavaConcepts;
+
+public class ForLoopPractice {
+	
+	
+	/** Method Insertion */
+	
+	public static void Loop(int num)
+	{
+		if(num<=80)
+		{
+			System.out.println(num);
+			Loop(num+1);
+		}
+	}
+	
+	
+	
+		
+	/** For Loop logic */
+	
+	
+	
+	
+	public static void main(String[] args)
+
+	{
+		Loop(1);
+	}
+	
+}

@@ -1,0 +1,59 @@
+package com.project.rough;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.SkipException;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class SeleniumPracTuesday {
+	
+	WebDriver driver;
+	
+	
+	@BeforeSuite
+	public void setup()
+	{
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.in");	
+	}
+	
+	@Test
+	public void begin()
+	{
+		System.out.println("Beginning of the TCs");
+	}
+	
+	@Test
+	public void screenshot()
+	{
+		
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(src, new File("location"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("Skipping the TC");
+		throw new SkipException("TC Skipped");
+
+	}
+
+	public void teardown()
+	{
+		driver.quit();
+	}
+	
+	
+	
+}

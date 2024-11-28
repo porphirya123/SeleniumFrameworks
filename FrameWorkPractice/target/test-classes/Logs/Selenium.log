@@ -1,0 +1,7 @@
+2024-11-19 19:33:40,843 +0530 [main] DEBUG (BaseFile.java:39) - Config File locaton assigned
+2024-11-19 19:33:40,846 +0530 [main] DEBUG (BaseFile.java:46) - Config File loaded !!
+2024-11-19 19:33:40,854 +0530 [main] DEBUG (BaseFile.java:55) - Or File locaton assigned
+2024-11-19 19:33:40,854 +0530 [main] DEBUG (BaseFile.java:62) - Config File loaded !!
+2024-11-19 19:33:42,756 +0530 [main] DEBUG (BaseFile.java:72) - Chrome launched !!
+2024-11-19 19:33:43,398 +0530 [main] DEBUG (BaseFile.java:82) - website url launched !!
+2024-11-19 19:33:48,312 +0530 [main] DEBUG (BaseFile.java:93) - Browser closed!!

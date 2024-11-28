@@ -1,0 +1,44 @@
+package com.packageA;
+
+import java.util.ArrayList;
+
+public class CollectionFramework {
+	
+	public void ArrayListDemo()
+	{
+		ArrayList al = new ArrayList();
+		al.add("Test");
+		al.add(3);
+		al.add(34);
+		al.add("c");
+		
+		//System.out.println(al);
+		
+//		for(Object a: al)
+//		{
+//			System.out.println(a);
+//		}
+		
+		
+		
+		int size = al.size();
+		int index = size;
+		while(size!=0)
+		{
+			Object l = al.get(index);
+			index++;
+			System.out.println(l);
+		}
+	
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		CollectionFramework obj = new CollectionFramework();
+		obj.ArrayListDemo();
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.refineproject.testcases;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.refineproject.baseclass.ProjectBaseClass;
+
+public class CustomerLogin extends ProjectBaseClass{
+	
+	
+	@Test
+	public void custLogin()
+	{
+		driver.findElement(By.xpath(or.getProperty("customerLogin"))).click();
+		log.debug("Clicked on Customer Login successfully");
+	}
+	
+	
+
+}

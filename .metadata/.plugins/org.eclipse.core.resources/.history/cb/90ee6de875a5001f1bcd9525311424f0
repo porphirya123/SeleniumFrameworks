@@ -1,0 +1,45 @@
+package JavaConcepts;
+
+public class AbstractClassDemo {
+
+	public void printmethod() {
+
+		System.out.println("Print Abstract Class Method");
+	}
+
+	public void sum() {
+		
+		int a=20;
+		int b=40;
+		System.out.println("Sum = "+(a+b));
+	}
+	
+	public static void main(String[] args)
+	{
+		AbstractClassDemo obj = new AbstractClassDemo();
+		obj.printmethod();
+		obj.sum();
+	}
+
+}
+
+
+abstract class DemoTest
+{
+
+	 abstract void printmethod();
+	
+	 abstract void sum();
+	
+	 public void testmethod()
+	 {
+		 System.out.println("Printing non Abstract Method inside Abstract Class");
+	 }
+	
+}
+
+class Call extends AbstractClassDemo
+{
+	
+}
+

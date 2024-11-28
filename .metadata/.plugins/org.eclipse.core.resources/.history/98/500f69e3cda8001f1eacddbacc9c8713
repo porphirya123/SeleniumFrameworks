@@ -1,0 +1,36 @@
+package Frameworks;
+
+import java.util.HashMap;
+
+public class HashMapDemo {
+	
+	HashMap<String, Integer> map = new HashMap<>();
+	
+	public static void hashmap()
+	{
+		try {
+		map.put("Santosh", 1);
+		map.put("Demo", 1);
+		map.put("Ankita", 1);
+		map.put("Santosh", 1);
+		
+		System.out.println(map);
+		}catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		HashMapDemo obj = HashMapDemo();
+		obj.hashmap();
+		
+		
+	}
+	
+	
+	
+
+}

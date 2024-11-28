@@ -1,0 +1,39 @@
+package JavaConcepts;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionPractice {
+	
+	
+	public void checkList()
+	{
+		
+		List<Integer>rollno = new ArrayList<Integer>();
+		
+		rollno.add(10);
+		rollno.add(5);
+		rollno.add(10);
+		rollno.add(20);
+		
+		System.out.println(rollno);
+		
+		
+			
+		
+		
+	}
+	
+	
+	
+	public static void main(String[] args)
+	{
+		CollectionPractice obj = new CollectionPractice();
+		obj.checkList();
+	}
+	
+	
+	
+	
+
+}

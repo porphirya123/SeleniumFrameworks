@@ -1,0 +1,18 @@
+package JavaConcepts;
+
+public class ArrayDemo {
+	
+	public static void main(String[] args) {
+		
+		String[] name = new String[3];
+		name[0] = "Santosh";
+		name[1] = "Ramesh";
+		name[2]="Suresh";
+		
+		System.out.println(name);;
+		
+		
+		
+	}
+
+}

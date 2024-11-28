@@ -1,0 +1,34 @@
+package Arrays;
+
+import java.util.Arrays;
+
+public class PracSunday {
+	
+	String arr[] = {"Santosh", "Ankita", "Atharv"};
+	
+	
+	public void arrtoString()
+	{
+		
+	 System.out.println(arr.toString());
+	}
+	
+		
+		
+	public static void main(String[] args) {
+		
+		PracSunday obj = new PracSunday();
+		obj.arrtoString();
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,86 @@
+package com.projectBaseClass;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+public class ProjectBaseClass {
+	
+	public static WebDriver driver;
+	public static Properties config = new Properties();
+	public static Properties or = new Properties();
+	public static FileInputStream fis;
+	Logger log = Logger.getLogger("devpinoyLogger");
+	
+	
+	@BeforeSuite
+	public void setup()
+	{
+		if(driver==null)
+		{
+		try {
+			fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\propertyFiles\\config.properties");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			config.load(fis);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\propertyFiles\\or.properties");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			or.load(fis);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		if(config.getProperty("browser").equals("chrome"))
+		{
+			driver = new ChromeDriver();
+			
+		}
+		else if(config.getProperty("browser").equals("firefox"))
+		{
+			driver = new FirefoxDriver();
+			
+		}
+		
+		driver.manage().window().maximize();
+		driver.get(config.getProperty("websiteurl"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		
+		}
+		
+		
+		
+	}
+	
+	
+	@AfterSuite
+	public void teardown()
+	{
+		
+	}
+	
+	
+	
+
+}

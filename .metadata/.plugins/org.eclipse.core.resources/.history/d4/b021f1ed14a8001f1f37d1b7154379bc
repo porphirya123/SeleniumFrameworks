@@ -1,0 +1,78 @@
+package Arrays;
+
+import java.util.Arrays;
+
+public class CopyArray {
+	
+
+	
+	public void copyString()
+	{
+		
+	String[] firstnames = {"Ankita", "Santosh", "Atharv", "Saanchi"};
+	
+	String name[] = new String[4];
+		
+	for(int i=0;i<firstnames.length;i++)
+	{
+		name[i]=firstnames[i];
+	}
+	
+	for(String n:name)
+	{
+	System.out.println(n);
+
+	}
+	
+	}
+	
+	
+	public void copyInt()
+	{
+		int rolls[] = {12,33,44,22,53};
+		int ages[] = new int[4];
+		ages[0] = 10;
+		ages[1] = 1;
+		ages[2] = 13;
+		ages[3]= 44;
+		
+		int nums[] = Arrays.copyOf(rolls, rolls.length);
+		
+		for(int nu:nums)
+		{
+			System.out.println("Copy Array using CopyOf Method" + nu);
+		}
+		
+		int[] num= new int[5];	
+		System.out.println(rolls.length);
+		for(int i=0;i<rolls.length;i++)
+		{
+			num[i] = rolls[i];
+			
+		}
+		
+		for(int n:num)
+		{
+			System.out.println("Copy Array using for loop" + n);
+		}
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		CopyArray obj = new CopyArray();
+		obj.copyInt();
+
+
+}
+}
+

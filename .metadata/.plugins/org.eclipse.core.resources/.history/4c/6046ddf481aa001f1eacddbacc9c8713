@@ -1,0 +1,27 @@
+package com.practice.rough;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class DataProviderDemo {
+
+	@Test(dataProvider ="getData")
+	public void loginApp()
+	{
+		System.out.println("Checking Data Provider Syntax");
+	}
+	
+	
+	@DataProvider
+	public Object[][] getData()
+	{
+		Object[][] data = new Object[2][2];
+		data[0][0] ="Santosh";
+		data[0][1] ="Saantosh";
+		data[1][0] ="Atosh";
+		data[1][1] ="Mantosh";
+		
+		return data;
+	}
+	
+}

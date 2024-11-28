@@ -1,0 +1,72 @@
+package StringTrickQuestions;
+
+import java.util.Scanner;
+
+public class StringTrickLogics {
+
+	
+	/******** Find count of words in a Sentence *********/
+	
+	public void countWord()
+	{
+		Scanner sc = new Scanner(System.in);
+		String sen = sc.nextLine();
+		int count = 1;
+		for(int i=0;i<sen.length();i++)
+		{
+			if((sen.charAt(i)==' ') && (sen.charAt(i+1)!=' ')) // checking the condition that after word there should be space and after space there should be a character
+					{
+					count++;
+					}
+		}System.out.println("No of words = "+count);
+		
+    	}
+	
+	
+	
+	public void revChar()
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter a workd ");
+		
+		String word = sc.nextLine();
+		String rev = "";
+		
+		
+		for(int i=word.length()-1;i>=0;i--)
+		{
+			char ch=word.charAt(i);
+			rev = rev+ch; 
+		}
+		System.out.println(rev);
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args)
+	{
+	StringTrickLogics obj = new StringTrickLogics();
+	obj.revChar();
+	}
+	
+	
+}

@@ -1,0 +1,67 @@
+package com.seleniumbasics.practice;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class TakesScreenshotDemo {
+	public static WebDriver driver;
+	
+	
+	public static void takescreenshot(WebDriver driver)
+	
+	{
+	
+		TakesScreenshot shot = ((TakesScreenshot)driver);
+		File src = shot.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(src, new File("C:\\eclipse-workspace\\BasicSeleniumPractice\\target\\test1.jpeg"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
+		
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+	
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.way2automation.com/angularjs-protractor/banking/#/login");
+		
+		takescreenshot();
+		
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		WebElement bankmanagerLogin = driver.findElement(By.xpath("//button[contains(text(),'Bank Manager Login')]"));
+		
+		Actions act = new Actions(driver);
+		act.moveToElement(bankmanagerLogin).click().perform();
+		//act.click(bankmanagerLogin).perform();
+		
+		driver.quit();
+		
+	}
+	
+}

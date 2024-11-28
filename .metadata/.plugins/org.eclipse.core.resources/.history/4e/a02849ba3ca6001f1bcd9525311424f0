@@ -1,0 +1,53 @@
+package JavaConcepts;
+
+import java.util.Scanner;
+
+public class JavaBasics {
+	
+	public void FindLargerNumber()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 1st Number : ");
+		int a =sc.nextInt();
+		System.out.println("Enter 2nd Number : ");
+		int b=sc.nextInt();
+		System.out.println("Enter 3rd Number : ");
+		int c=sc.nextInt();
+		
+		if(a>b && a>c)
+		{
+			System.out.println("The bigger of amoung 3 number is : " + a);
+		}
+		else if(b>a && b>c)
+		{
+			System.out.println("The bigger of amoung 3 number is : " + b);
+		}
+		else if(c>a && c>b)
+		{
+			System.out.println("The bigger of amoung 3 number is : " + c);
+		}
+		
+	}
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int num=1234;
+	
+		int newValue = 0;
+		
+		while(num!=0)
+		{
+			int remainValue = num%10;
+			newValue= newValue*10+remainValue;
+		}
+		System.out.println(newValue);
+		
+		
+		
+	}
+
+}

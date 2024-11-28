@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\eclipse-workspace\ProjectDemo_19_11_2024"/>
+			<item value="C:\eclipse-workspace\JavaPractice\src\JavaConcepts\MathTrics.java"/>
+			<item value="C:\eclipse-workspace\DataDrivenProject"/>
+			<item value="C:\eclipse-workspace\DataDrivenProject\src\test\java\com\project\baseclass\BaseClass.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="ProjectDemo_20_11_2024"/>
+			<item value="ProjectDemo_19_11_2024"/>
+			<item value="BasicSeleniumPractice"/>
+			<item value="FrameWorkPractice"/>
+			<item value="PracticeProject"/>
+			<item value="DataDrivenProjectPractice"/>
+			<item value="DataDrivenProject"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="ProjectDemo_20_11_2024"/>
+			<item value="ProjectDemo_19_11_2024"/>
+			<item value="BasicSeleniumPractice"/>
+			<item value="FrameWorkPractice"/>
+			<item value="PracticeProject"/>
+			<item value="DataDrivenProjectPractice"/>
+			<item value="DataDrivenProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
