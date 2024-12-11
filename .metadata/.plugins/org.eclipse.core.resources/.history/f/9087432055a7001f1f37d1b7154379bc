@@ -1,3 +1,0 @@
-home = 
-custLogin = //button[contains(text(),'Customer Login')]
-addCustomer = 

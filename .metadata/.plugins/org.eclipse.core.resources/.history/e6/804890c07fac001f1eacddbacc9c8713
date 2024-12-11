@@ -1,2 +1,0 @@
-home =  //button[contains(text(),'Home')]
-customerLogin = //button[contains(text(),'Customer Login')]

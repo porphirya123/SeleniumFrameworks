@@ -1,4 +1,7 @@
-2024-11-27 21:35:06,983 +0530 [main] DEBUG (ProjectBaseClass.java:33) - Config file loaded successfully
-2024-11-27 21:35:06,985 +0530 [main] DEBUG (ProjectBaseClass.java:38) - OR file loaded successfully
-2024-11-27 21:35:08,382 +0530 [main] DEBUG (ProjectBaseClass.java:47) - Chrome Launched!!
-2024-11-27 21:35:09,005 +0530 [main] DEBUG (ProjectBaseClass.java:60) - Website Launched!!
+2024-11-30 19:12:23,474 +0530 [main] DEBUG (ProjectBaseClass.java:39) - Config file loaded successfully
+2024-11-30 19:12:23,476 +0530 [main] DEBUG (ProjectBaseClass.java:44) - OR file loaded successfully
+2024-11-30 19:12:26,009 +0530 [main] DEBUG (ProjectBaseClass.java:53) - Chrome Launched!!
+2024-11-30 19:12:26,860 +0530 [main] DEBUG (ProjectBaseClass.java:66) - Website Launched!!
+2024-11-30 19:12:27,194 +0530 [TestNG-methods-2] DEBUG (CustomerLogin.java:16) - Clicked on Customer Login successfully
+2024-11-30 19:12:27,243 +0530 [TestNG-methods-1] DEBUG (CustomerLogin.java:16) - Clicked on Customer Login successfully
+2024-11-30 19:12:27,283 +0530 [TestNG-methods-4] DEBUG (CustomerLogin.java:16) - Clicked on Customer Login successfully

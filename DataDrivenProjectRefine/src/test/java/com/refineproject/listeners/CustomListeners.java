@@ -7,6 +7,8 @@ import org.testng.Reporter;
 import org.testng.internal.annotations.IListeners;
 
 import com.aventstack.extentreports.model.Log;
+import com.refineproject.baseclass.ProjectBaseClass;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class CustomListeners implements ITestListener{
 
@@ -19,12 +21,14 @@ public class CustomListeners implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		Reporter.log("Screenshot link");
+		ProjectBaseClass.test.log(LogStatus.PASS, "pass");
 		ITestListener.super.onTestSuccess(result);
+		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		
+		System.setProperty("org.uncommons.reportng.excapte-output", "false");
 		System.out.println("Capturing Failure");
 		Reporter.log("Test failed");
 		

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+
+<listener class-name = "org.uncommons.reportng.HTMLReporter"/>
+<listener class-name = "org.uncommons.reportng.JUnitXMLReporter"/>
+<listener class-name = "com.project.listeners.CustomListeners"/>
+</listeners>
+
+
+  <test thread-count="1" name="CustomerLogin">
+    <classes>
+      <class name="com.project.testcases.CustomerLogin"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+  
+   <test thread-count="1" name="BankManagerLogin">
+    <classes>
+      <class name="com.project.testcases.BankManagerLogin"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+  
+  <test thread-count="1" name="AddCustomer">
+    <classes>
+      <class name="com.project.testcases.BankManagerLogin"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+  
+</suite> <!-- Suite -->

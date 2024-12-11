@@ -5,11 +5,19 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.refineproject.utilities.ExtendManagerNew;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class ProjectBaseClass {
 
@@ -18,6 +26,9 @@ public class ProjectBaseClass {
 	public static Properties or;
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
+	public static WebDriverWait wait;
+	public ExtentReports reo = ExtendManagerNew.getInstance();
+	public static ExtentTest test;
 	
 	
 	@BeforeSuite
@@ -61,6 +72,34 @@ public class ProjectBaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 		
+	}
+	
+	
+	public boolean isElementPresent(By by)
+	{
+		try
+		{
+			driver.findElement(by);
+			log.debug("WebElement is present");
+			return true;
+			
+		}catch (NoSuchElementException e)
+		{
+			log.debug("WebElement is not present");
+			return false;
+		}
+	}
+
+	public void click(String locator)
+	{
+		driver.findElement(By.xpath(locator)).click();
+	}
+	
+	public void sendText(String locator, String text)
+	{
+		driver.findElement(By.xpath(or.getProperty("locator"))).sendKeys(text);
+		this.log(LogStatus.INFO, "Clicking on "+locator);
+		this.log("This is a test");
 	}
 	
 	

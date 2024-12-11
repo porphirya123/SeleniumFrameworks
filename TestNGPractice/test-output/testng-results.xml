@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T13:12:06 IST" name="Suite" finished-at="2024-12-09T13:12:24 IST" duration-ms="18473">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T13:12:06 IST" name="Smoke" finished-at="2024-12-09T13:12:15 IST" duration-ms="8876">
+      <class name="com.packageone.Human">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.packageone.Human@1033576a]" started-at="2024-12-09T13:12:06 IST" name="beforeTest" finished-at="2024-12-09T13:12:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.packageone.Human@1033576a]" started-at="2024-12-09T13:12:06 IST" name="beforeMethod" finished-at="2024-12-09T13:12:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testOne()[pri:0, instance:com.packageone.Human@1033576a]" started-at="2024-12-09T13:12:06 IST" name="testOne" finished-at="2024-12-09T13:12:15 IST" duration-ms="8835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.packageone.Human@1033576a]" started-at="2024-12-09T13:12:15 IST" name="afterMethod" finished-at="2024-12-09T13:12:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.packageone.Human@1033576a]" started-at="2024-12-09T13:12:15 IST" name="afterTest" finished-at="2024-12-09T13:12:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.packageone.Human -->
+    </test> <!-- Smoke -->
+    <test started-at="2024-12-09T13:12:15 IST" name="Sanity" finished-at="2024-12-09T13:12:19 IST" duration-ms="4832">
+      <class name="com.packageone.Child">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.packageone.Child@3ad83a66]" started-at="2024-12-09T13:12:15 IST" name="beforeTest" finished-at="2024-12-09T13:12:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testTwo()[pri:0, instance:com.packageone.Child@3ad83a66]" started-at="2024-12-09T13:12:15 IST" name="testTwo" finished-at="2024-12-09T13:12:19 IST" duration-ms="4824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.packageone.Child@3ad83a66]" started-at="2024-12-09T13:12:15 IST" name="beforeMethod" finished-at="2024-12-09T13:12:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.packageone.Child@3ad83a66]" started-at="2024-12-09T13:12:19 IST" name="afterMethod" finished-at="2024-12-09T13:12:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.packageone.Child@3ad83a66]" started-at="2024-12-09T13:12:19 IST" name="afterTest" finished-at="2024-12-09T13:12:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.packageone.Child -->
+    </test> <!-- Sanity -->
+    <test started-at="2024-12-09T13:12:19 IST" name="Regression" finished-at="2024-12-09T13:12:24 IST" duration-ms="4716">
+      <class name="com.packagethree.PackageTest">
+        <test-method signature="AnotherPackage()[pri:0, instance:com.packagethree.PackageTest@15a34df2]" started-at="2024-12-09T13:12:19 IST" name="AnotherPackage" finished-at="2024-12-09T13:12:24 IST" duration-ms="4711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnotherPackage -->
+      </class> <!-- com.packagethree.PackageTest -->
+      <class name="com.packageone.Child">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.packageone.Child@3ad83a66]" started-at="2024-12-09T13:12:06 IST" name="beforeSuite" finished-at="2024-12-09T13:12:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.packageone.Child@3ad83a66]" started-at="2024-12-09T13:12:24 IST" name="afterSuite" finished-at="2024-12-09T13:12:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.packageone.Child -->
+      <class name="com.packageone.Human">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.packageone.Human@1033576a]" started-at="2024-12-09T13:12:06 IST" name="beforeSuite" finished-at="2024-12-09T13:12:06 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.packageone.Human@1033576a]" started-at="2024-12-09T13:12:24 IST" name="afterSuite" finished-at="2024-12-09T13:12:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.packageone.Human -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

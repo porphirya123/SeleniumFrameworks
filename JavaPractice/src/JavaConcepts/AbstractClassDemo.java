@@ -17,9 +17,9 @@ public class AbstractClassDemo extends DemoTest{
 	public static void main(String[] args)
 	{
 		AbstractClassDemo obj = new AbstractClassDemo();
-		obj.printmethod();
-		obj.sum();
-		obj.testmethod();
+//		obj.printmethod();
+//		obj.sum();
+//		obj.testmethod();
 		
 	}
 
@@ -28,11 +28,16 @@ public class AbstractClassDemo extends DemoTest{
 
 abstract class DemoTest
 {
+	
+	DemoTest()
+	{
+		System.out.println("Abstract Class Constructor");
+	}
 
-	 abstract void printmethod();
-	
-	 abstract void sum();
-	
+//	 abstract void printmethod();
+//	
+//	 abstract void sum();
+//	
 	 public void testmethod()
 	 {
 		 System.out.println("Printing non Abstract Method inside Abstract Class");
@@ -43,12 +48,12 @@ abstract class DemoTest
 class Call extends DemoTest
 {
 
-	@Override
+	
 	void printmethod() {
 		System.out.println("2nd Time Abastract Class Called");
 	}
 
-	@Override
+	
 	void sum() {
 		
 		int b=23;

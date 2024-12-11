@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Website Login]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\eclipse-workspace\DataDrivenProjectSample1\src\test\resources\screenshots\Mon_Dec_02_11_15_55_IST_2024.jpeg" target = "_blank">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target ="_blank" href="C:\eclipse-workspace\DataDrivenProjectSample1\src\test\resources\screenshots\Mon_Dec_02_11_15_55_IST_2024.jpeg "><img src="C:\eclipse-workspace\DataDrivenProjectSample1\src\test\resources\screenshots\Mon_Dec_02_11_15_55_IST_2024.jpeg" height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Website Login]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[Verification pass for AddCustomber button]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[Verification pass for AddCustomber button]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-03T20:37:25 IST" name="Suite" finished-at="2024-12-03T20:37:35 IST" duration-ms="9766">
+    <groups>
+    </groups>
+    <test started-at="2024-12-03T20:37:25 IST" name="CustomerLogin" finished-at="2024-12-03T20:37:28 IST" duration-ms="3252">
+      <class name="com.project.testcases.CustomerLogin">
+        <test-method signature="custLogin()[pri:1, instance:com.project.testcases.CustomerLogin@693fe6c9]" started-at="2024-12-03T20:37:25 IST" name="custLogin" finished-at="2024-12-03T20:37:28 IST" duration-ms="3226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Website Login]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\eclipse-workspace\DataDrivenProjectSample1\src\test\resources\screenshots\Mon_Dec_02_11_15_55_IST_2024.jpeg" target = "_blank">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target ="_blank" href="C:\eclipse-workspace\DataDrivenProjectSample1\src\test\resources\screenshots\Mon_Dec_02_11_15_55_IST_2024.jpeg "><img src="C:\eclipse-workspace\DataDrivenProjectSample1\src\test\resources\screenshots\Mon_Dec_02_11_15_55_IST_2024.jpeg" height=200 width=200></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Website Login]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- custLogin -->
+      </class> <!-- com.project.testcases.CustomerLogin -->
+    </test> <!-- CustomerLogin -->
+    <test started-at="2024-12-03T20:37:28 IST" name="BankManagerLogin" finished-at="2024-12-03T20:37:31 IST" duration-ms="3240">
+      <class name="com.project.testcases.BankManagerLogin">
+        <test-method signature="bankManagerLogin()[pri:2, instance:com.project.testcases.BankManagerLogin@76c3e77a]" started-at="2024-12-03T20:37:28 IST" name="bankManagerLogin" finished-at="2024-12-03T20:37:31 IST" duration-ms="3235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification pass for AddCustomber button]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerLogin -->
+      </class> <!-- com.project.testcases.BankManagerLogin -->
+    </test> <!-- BankManagerLogin -->
+    <test started-at="2024-12-03T20:37:31 IST" name="AddCustomer" finished-at="2024-12-03T20:37:35 IST" duration-ms="3236">
+      <class name="com.project.testcases.BankManagerLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testcases.BankManagerLogin@67c33749]" started-at="2024-12-03T20:37:22 IST" name="setup" finished-at="2024-12-03T20:37:25 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bankManagerLogin()[pri:2, instance:com.project.testcases.BankManagerLogin@67c33749]" started-at="2024-12-03T20:37:31 IST" name="bankManagerLogin" finished-at="2024-12-03T20:37:34 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification pass for AddCustomber button]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project.testcases.BankManagerLogin@67c33749]" started-at="2024-12-03T20:37:35 IST" name="teardown" finished-at="2024-12-03T20:37:35 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.project.testcases.BankManagerLogin -->
+    </test> <!-- AddCustomer -->
+  </suite> <!-- Suite -->
+</testng-results>

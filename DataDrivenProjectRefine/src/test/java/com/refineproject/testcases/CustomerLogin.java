@@ -9,12 +9,6 @@ public class CustomerLogin extends ProjectBaseClass{
 	
 	
 	@Test(invocationCount = 4, threadPoolSize=4)
-	public void invocationcount()
-	
-	{
-		System.out.println("Tesing thread pool size");
-	}
-	
 	
 	public void custLogin()
 	{

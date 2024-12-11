@@ -1,11 +1,26 @@
 package JavaConcepts;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Queue;
+import java.util.Set;
 
 public class CollectionPractice {
+	
+	
+	List<Integer> li = new ArrayList<Integer>();
+	Set<Integer> set = new HashSet<Integer>();
+	
+	public void convertSetToList()
+	{
+	
+		int size = set.size();
+		li = new ArrayList<>(size);
+		System.out.println(li);
+		
+	}
+	
 	
 	
 	public void checkList()
@@ -27,21 +42,15 @@ public class CollectionPractice {
 	}
 	
 	
-	public void Queuedemo()
-	{
-		Queue<Integer>q = new LinkedList();
-		
-	}
+	
 	
 	
 	public static void main(String[] args)
 	{
 		CollectionPractice obj = new CollectionPractice();
-		obj.checkList();
+		//obj.checkList();
+		obj.convertSetToList();
 	}
 	
 	
-	
-	
-
 }
