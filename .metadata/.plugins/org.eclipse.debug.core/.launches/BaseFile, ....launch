@@ -2,16 +2,15 @@
 <launchConfiguration type="org.testng.eclipse.launchconfig">
     <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="FrameWorkPractice"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DataDrivenFramework"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
-        <listEntry value="com.practice.testcases.AddCustomerTest"/>
-        <listEntry value="com.practice.baseFile.BaseFile"/>
-        <listEntry value="com.practice.utilities.TestUtilities"/>
-        <listEntry value="com.practice.testcases.CustomerLogin"/>
-        <listEntry value="com.practice.rough.GetTimeStamp"/>
-        <listEntry value="com.practice.listeners.CustomListeners"/>
+        <listEntry value="com.datadriven.listeners.CustomListeners"/>
+        <listEntry value="com.datadriven.testcases.CustLogin"/>
+        <listEntry value="com.datadriven.utilities.CommonUtilities"/>
+        <listEntry value="com.datadriven.baseclass.BaseFile"/>
+        <listEntry value="com.datadriven.testcases.BankManagerLogin"/>
     </listAttribute>
     <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
     <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>

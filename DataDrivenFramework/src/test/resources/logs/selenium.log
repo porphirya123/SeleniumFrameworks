@@ -1,0 +1,16 @@
+2024-12-27 11:06:03,381 +0530 [main] DEBUG (BaseFile.java:44) - Config file is loaded
+2024-12-27 11:06:03,391 +0530 [main] DEBUG (BaseFile.java:49) - OR file is loaded
+2024-12-27 11:06:06,428 +0530 [main] DEBUG (BaseFile.java:54) - Chrome driver initiated
+2024-12-27 11:06:06,475 +0530 [main] DEBUG (BaseFile.java:72) - Browser got maximized
+2024-12-27 11:06:07,163 +0530 [main] DEBUG (BaseFile.java:74) - Website got launched
+2024-12-27 11:06:07,169 +0530 [main] DEBUG (BaseFile.java:76) - Implicit wait got implemented for 10 seconds
+2024-12-27 11:06:07,530 +0530 [main] DEBUG (CustLogin.java:15) - Clicked on Customer Login
+2024-12-27 11:06:07,588 +0530 [main] DEBUG (CustLogin.java:17) - Clicked on Home button
+2024-12-27 11:06:07,667 +0530 [main] DEBUG (BankManagerLogin.java:23) - Added Implicit wait
+2024-12-27 11:06:07,716 +0530 [main] DEBUG (BankManagerLogin.java:26) - Clicked on BankManagerLogin
+2024-12-27 11:06:08,425 +0530 [main] DEBUG (BankManagerLogin.java:34) - Clicked on Add Customer button
+2024-12-27 11:06:08,627 +0530 [main] DEBUG (BankManagerLogin.java:36) - Input First Name
+2024-12-27 11:06:08,717 +0530 [main] DEBUG (BankManagerLogin.java:38) - Input Last Name
+2024-12-27 11:06:08,808 +0530 [main] DEBUG (BankManagerLogin.java:40) - Input Post Code
+2024-12-27 11:06:08,880 +0530 [main] DEBUG (BankManagerLogin.java:42) - Clicked on Add button
+2024-12-27 11:06:08,897 +0530 [main] DEBUG (BankManagerLogin.java:45) - Captured Alerts and accepted it

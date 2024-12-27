@@ -1,0 +1,16 @@
+Config file is loaded
+OR file is loaded
+Chrome driver initiated
+Browser got maximized
+Website got launched
+Implicit wait got implemented for 10 seconds
+Clicked on Customer Login
+Clicked on Home button
+Added Implicit wait
+Clicked on BankManagerLogin
+Clicked on Add Customer button
+Input First Name
+Input Last Name
+Input Post Code
+Clicked on Add button
+Captured Alerts and accepted it

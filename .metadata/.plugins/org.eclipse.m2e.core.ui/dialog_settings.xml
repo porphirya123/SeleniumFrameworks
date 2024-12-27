@@ -2,6 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\eclipse-workspace\PageObjectWithPageFactory\pom.xml"/>
+			<item value="C:\eclipse-workspace\DataDrivenFramework"/>
+			<item value="C:\eclipse-workspace\PageFactorTestDayOne"/>
+			<item value="C:\eclipse-workspace\TestNGPractice"/>
+			<item value="C:\eclipse-workspace\SeleniumDailyPractice\src\test\java\windowhandles\HandleTab.java"/>
+			<item value="C:\eclipse-workspace\JavaPractice\src\JavaPracticeSet\String\PracticeSetDayOne.java"/>
 			<item value="C:\eclipse-workspace\PageFactoryFramework"/>
 			<item value="C:\eclipse-workspace\DailyProject\src\test\java\com\project\TestCases\TestLogin.java"/>
 			<item value="C:\eclipse-workspace\DataDrivenDailyPracticeFramework\src\test\java\BaseClass\BaseClass.java"/>
@@ -11,9 +17,6 @@
 			<item value="C:\eclipse-workspace\ProjectDemo_20_11_2024"/>
 			<item value="C:\eclipse-workspace\BasicSeleniumPractice"/>
 			<item value="C:\eclipse-workspace\ProjectDemo_19_11_2024"/>
-			<item value="C:\eclipse-workspace\JavaPractice\src\JavaConcepts\MathTrics.java"/>
-			<item value="C:\eclipse-workspace\DataDrivenProject"/>
-			<item value="C:\eclipse-workspace\DataDrivenProject\src\test\java\com\project\baseclass\BaseClass.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -55,6 +58,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="VeroModa"/>
+			<item value="LimeRoad"/>
+			<item value="PageFactory"/>
+			<item value="PageObjectWithPageFactory"/>
+			<item value="DataDrivenFramework"/>
+			<item value="DataDrivenDecOneSeven"/>
+			<item value="DailyPageObjectPageFactoryProject"/>
+			<item value="DailyDataDrivenProject"/>
 			<item value="PageFactorTestDayOne"/>
 			<item value="PageFactoryFramework"/>
 			<item value="PageObjectModelPractice"/>
@@ -62,18 +73,18 @@
 			<item value="DailyProject"/>
 			<item value="DataDrivenDailyPracticeFramework"/>
 			<item value="CucumberProjectSampleTwo"/>
-			<item value="CucumberProject"/>
-			<item value="SeleniumDailyPractice"/>
-			<item value="DataDrivenProjectSample1"/>
-			<item value="TestNGPractice"/>
-			<item value="DataDrivenProjectRefine"/>
-			<item value="ProjectDemo_20_11_2024"/>
-			<item value="ProjectDemo_19_11_2024"/>
-			<item value="BasicSeleniumPractice"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="VeroModa"/>
+			<item value="LimeRoad"/>
+			<item value="PageFactory"/>
+			<item value="PageObjectWithPageFactory"/>
+			<item value="DataDrivenFramework"/>
+			<item value="DataDrivenDecOneSeven"/>
+			<item value="DailyPageObjectPageFactoryProject"/>
+			<item value="DailyDataDrivenProject"/>
 			<item value="PageFactorTestDayOne"/>
 			<item value="PageFactoryFramework"/>
 			<item value="PageObjectModelPractice"/>
@@ -81,14 +92,6 @@
 			<item value="DailyProject"/>
 			<item value="DataDrivenDailyPracticeFramework"/>
 			<item value="CucumberProjectSampleTwo"/>
-			<item value="CucumberProject"/>
-			<item value="SeleniumDailyPractice"/>
-			<item value="DataDrivenProjectSample1"/>
-			<item value="TestNGPractice"/>
-			<item value="DataDrivenProjectRefine"/>
-			<item value="ProjectDemo_20_11_2024"/>
-			<item value="ProjectDemo_19_11_2024"/>
-			<item value="BasicSeleniumPractice"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

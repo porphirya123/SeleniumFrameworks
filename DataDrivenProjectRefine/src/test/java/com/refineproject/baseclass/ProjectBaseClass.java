@@ -47,6 +47,7 @@ public class ProjectBaseClass {
 			fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\propertyfiles\\or.properties");
 			or.load(fis);
 			log.debug("OR file loaded successfully");
+			
 			}catch(Exception e)
 			{
 				System.out.println("Problem with reading property file");
@@ -98,8 +99,7 @@ public class ProjectBaseClass {
 	public void sendText(String locator, String text)
 	{
 		driver.findElement(By.xpath(or.getProperty("locator"))).sendKeys(text);
-		this.log(LogStatus.INFO, "Clicking on "+locator);
-		this.log("This is a test");
+		
 	}
 	
 	

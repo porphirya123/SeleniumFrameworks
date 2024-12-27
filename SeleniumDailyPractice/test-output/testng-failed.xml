@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day3.DayThree">
+      <class name="Day2.PlayWithExcel">
         <methods>
-          <include name="selniumActions"/>
+          <include name="writeExcel"/>
         </methods>
-      </class> <!-- Day3.DayThree -->
+      </class> <!-- Day2.PlayWithExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

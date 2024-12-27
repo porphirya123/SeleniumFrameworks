@@ -21,7 +21,7 @@ public class CustomListeners implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		Reporter.log("Screenshot link");
-		ProjectBaseClass.test.log(LogStatus.PASS, "pass");
+		//ProjectBaseClass.test.log(LogStatus.PASS, "pass");
 		ITestListener.super.onTestSuccess(result);
 		
 	}

@@ -1,0 +1,7 @@
+2024-12-18 10:40:42,049 +0530 [main] DEBUG (BaseClass.java:46) - Config loaded successfully
+2024-12-18 10:40:42,053 +0530 [main] INFO  (BaseClass.java:47) - File Loaded successfully
+2024-12-18 10:40:42,053 +0530 [main] DEBUG (BaseClass.java:52) - OR loaded successfully
+2024-12-18 10:40:43,798 +0530 [main] DEBUG (BaseClass.java:63) - Chrome Browser initialised
+2024-12-18 10:40:43,841 +0530 [main] DEBUG (BaseClass.java:79) - Browser got maximized
+2024-12-18 10:40:44,347 +0530 [main] DEBUG (BaseClass.java:81) - Website launched
+2024-12-18 10:40:44,351 +0530 [main] DEBUG (BaseClass.java:83) - Implicit Wait added for 10 secs

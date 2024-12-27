@@ -17,37 +17,12 @@ public class AddCustomers extends ProjectBaseClass{
 	
 	
 	
-	@Test(dataProvider = "getData")
-	public void addCustomers(String firstName, String lastName, String postCode)
-	{
 		
 		
 		
-	}
+		
+		
+		
 	
-	
-	@DataProvider
-	public Object[][] getData()
-	{
-	
-	Object data[][] =null; 
-	
-	int rows = sheet.getPhysicalNumberOfRows();
-	
-	for(int i=0;i<rows;i++)
-	{
-	data = new String[i][i];	
-	 data = sheet.getRow(i+1).getCell(i).getStringCellValue();
-	lastName  = sheet.getRow(i+1).getCell(1+1).getStringCellValue();
-	postCode  = sheet.getRow(i+1).getCell(1+2).getStringCellValue();
-	
-}
-		
-		
-		
-		
-		
-		
-	}
 
 }
