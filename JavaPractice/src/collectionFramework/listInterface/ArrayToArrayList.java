@@ -3,6 +3,7 @@ package collectionFramework.listInterface;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class ArrayToArrayList {
 	
@@ -14,6 +15,8 @@ public class ArrayToArrayList {
 	
 	public static void main(String[] args) {
 		
+		try {
+		
 		String[] names = {"Santosh", "Ankita", "Atharv", "Saanchi"};
 		List<String>listNames = new ArrayList<String>(Arrays.asList(names));
 		System.out.println(listNames);
@@ -22,7 +25,10 @@ public class ArrayToArrayList {
 		
 		System.out.println(Arrays.toString(arrNames));
 		
-		
+		}catch(NoSuchElementException e)
+		{
+			System.out.println(e.getMessage());
+		}
 		
 		
 	}

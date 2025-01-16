@@ -1,0 +1,14 @@
+2024-12-29 17:53:06,164 +0530 [main] DEBUG (BasePage.java:41) - Firefox got launched
+2024-12-29 17:53:08,563 +0530 [main] DEBUG (BasePage.java:46) - Url launched
+2024-12-29 17:53:11,104 +0530 [main] DEBUG (BasePage.java:41) - Firefox got launched
+2024-12-29 17:53:14,543 +0530 [main] DEBUG (BasePage.java:46) - Url launched
+2024-12-29 17:53:17,376 +0530 [main] DEBUG (BasePage.java:41) - Firefox got launched
+2024-12-29 17:53:19,940 +0530 [main] DEBUG (BasePage.java:46) - Url launched
+2024-12-29 17:53:23,048 +0530 [main] DEBUG (BasePage.java:55) - Click action got performed
+2024-12-29 17:53:23,348 +0530 [main] DEBUG (BasePage.java:55) - Click action got performed
+2024-12-29 17:53:24,888 +0530 [main] DEBUG (BasePage.java:55) - Click action got performed
+2024-12-29 17:53:28,569 +0530 [main] DEBUG (BasePage.java:55) - Click action got performed
+2024-12-29 17:53:32,549 +0530 [main] DEBUG (BasePage.java:55) - Click action got performed
+2024-12-29 17:53:35,563 +0530 [main] DEBUG (BasePage.java:80) - browser quit
+2024-12-29 17:53:35,563 +0530 [main] DEBUG (BasePage.java:80) - browser quit
+2024-12-29 17:53:35,564 +0530 [main] DEBUG (BasePage.java:80) - browser quit

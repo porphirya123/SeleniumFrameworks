@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\eclipse-workspace\SeleniumDailyPractice\src\test\java\excel\CreateExcelFile.java"/>
+			<item value="C:\eclipse-workspace\PageFactory_VeroModa\src\main\java\com\vero\listeners\CustomListeners.java"/>
 			<item value="C:\eclipse-workspace\PageObjectWithPageFactory\pom.xml"/>
 			<item value="C:\eclipse-workspace\DataDrivenFramework"/>
 			<item value="C:\eclipse-workspace\PageFactorTestDayOne"/>
@@ -15,8 +17,6 @@
 			<item value="C:\eclipse-workspace\CucumberProjectSampleTwo\src\test\resources\Features\login.feature"/>
 			<item value="C:\eclipse-workspace\JavaPractice\src\DailyPractice\Demo.java"/>
 			<item value="C:\eclipse-workspace\ProjectDemo_20_11_2024"/>
-			<item value="C:\eclipse-workspace\BasicSeleniumPractice"/>
-			<item value="C:\eclipse-workspace\ProjectDemo_19_11_2024"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -58,6 +58,11 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="DataDriven_SevenJan"/>
+			<item value="First_Jan_PageObject"/>
+			<item value="First_Jan_DataDriven"/>
+			<item value="PageFactory_VeroModa"/>
+			<item value="VeroModa_DataDriven"/>
 			<item value="VeroModa"/>
 			<item value="LimeRoad"/>
 			<item value="PageFactory"/>
@@ -68,15 +73,15 @@
 			<item value="DailyDataDrivenProject"/>
 			<item value="PageFactorTestDayOne"/>
 			<item value="PageFactoryFramework"/>
-			<item value="PageObjectModelPractice"/>
-			<item value="PageObjectModel"/>
-			<item value="DailyProject"/>
-			<item value="DataDrivenDailyPracticeFramework"/>
-			<item value="CucumberProjectSampleTwo"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="DataDriven_SevenJan"/>
+			<item value="First_Jan_PageObject"/>
+			<item value="First_Jan_DataDriven"/>
+			<item value="PageFactory_VeroModa"/>
+			<item value="VeroModa_DataDriven"/>
 			<item value="VeroModa"/>
 			<item value="LimeRoad"/>
 			<item value="PageFactory"/>
@@ -87,11 +92,6 @@
 			<item value="DailyDataDrivenProject"/>
 			<item value="PageFactorTestDayOne"/>
 			<item value="PageFactoryFramework"/>
-			<item value="PageObjectModelPractice"/>
-			<item value="PageObjectModel"/>
-			<item value="DailyProject"/>
-			<item value="DataDrivenDailyPracticeFramework"/>
-			<item value="CucumberProjectSampleTwo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

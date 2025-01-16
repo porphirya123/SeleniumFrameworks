@@ -1,9 +1,31 @@
 package collectionFramework.listInterface;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ArrayListMethods {
+	
+	public List<String> li = new LinkedList<String>();
+	
+	String names;
+	
+	public void convertList()
+	{
+		li.add("Santosh");
+		li.add("SohanLal");
+		
+		for(String l: li)
+		{
+			
+		names = li.toString();
+					
+		}
+		System.out.println(names);
+		
+		
+	}
+	
 	
 	
 	public static void main(String[] args) {
@@ -40,10 +62,10 @@ public class ArrayListMethods {
 		{
 			System.out.print(nobj);	
 		}
-		
-		
-		
-		
+
+		ArrayListMethods obj = new ArrayListMethods();
+		obj.convertList();
 	}
 
+	
 }

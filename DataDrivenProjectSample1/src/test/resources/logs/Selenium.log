@@ -1,9 +1,0 @@
-2024-12-02 13:43:03,712 +0530 [main] DEBUG (BaseClass.java:48) - Config file loaded
-2024-12-02 13:43:03,715 +0530 [main] DEBUG (BaseClass.java:53) - OR file loaded
-2024-12-02 13:43:05,361 +0530 [main] DEBUG (BaseClass.java:57) - Chrome driver file loaded
-2024-12-02 13:43:05,470 +0530 [main] DEBUG (BaseClass.java:66) - window maximized
-2024-12-02 13:43:05,970 +0530 [main] DEBUG (BaseClass.java:68) - Website launched
-2024-12-02 13:43:06,235 +0530 [main] DEBUG (CustomerLogin.java:17) - Clicked on Website Login
-2024-12-02 13:43:09,383 +0530 [main] DEBUG (BankManagerLogin.java:17) - Clicked on Home button
-2024-12-02 13:43:09,454 +0530 [main] DEBUG (BankManagerLogin.java:19) - Clicked BankManagerLogin
-2024-12-02 13:43:09,648 +0530 [main] DEBUG (BankManagerLogin.java:23) - Clicked on Add Customer button

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test verification added]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-29T17:53:03 IST" name="Default suite" finished-at="2024-12-29T17:53:35 IST" duration-ms="31912">
+    <groups>
+    </groups>
+    <test started-at="2024-12-29T17:53:03 IST" name="Default test" finished-at="2024-12-29T17:53:35 IST" duration-ms="31912">
+      <class name="com.vero.testcases.TC_Cart">
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.vero.testcases.TC_Cart@3c9754d8]" started-at="2024-12-29T17:53:03 IST" name="browserConfig" finished-at="2024-12-29T17:53:08 IST" duration-ms="4937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="testCart()[pri:0, instance:com.vero.testcases.TC_Cart@3c9754d8]" started-at="2024-12-29T17:53:23 IST" name="testCart" finished-at="2024-12-29T17:53:32 IST" duration-ms="9064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test verification added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:com.vero.testcases.TC_Cart@3c9754d8]" started-at="2024-12-29T17:53:34 IST" name="browserquit" finished-at="2024-12-29T17:53:35 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- com.vero.testcases.TC_Cart -->
+      <class name="com.vero.testcases.TC_TopNavigation">
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.vero.testcases.TC_TopNavigation@62ddbd7e]" started-at="2024-12-29T17:53:14 IST" name="browserConfig" finished-at="2024-12-29T17:53:19 IST" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="testTopNav()[pri:0, instance:com.vero.testcases.TC_TopNavigation@62ddbd7e]" started-at="2024-12-29T17:53:19 IST" name="testTopNav" finished-at="2024-12-29T17:53:23 IST" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTopNav -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:com.vero.testcases.TC_TopNavigation@62ddbd7e]" started-at="2024-12-29T17:53:35 IST" name="browserquit" finished-at="2024-12-29T17:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- com.vero.testcases.TC_TopNavigation -->
+      <class name="com.vero.testcases.TC_HomePage">
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.vero.testcases.TC_HomePage@3bf7ca37]" started-at="2024-12-29T17:53:08 IST" name="browserConfig" finished-at="2024-12-29T17:53:14 IST" duration-ms="5953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="testHomePage()[pri:0, instance:com.vero.testcases.TC_HomePage@3bf7ca37]" started-at="2024-12-29T17:53:32 IST" name="testHomePage" finished-at="2024-12-29T17:53:34 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:com.vero.testcases.TC_HomePage@3bf7ca37]" started-at="2024-12-29T17:53:35 IST" name="browserquit" finished-at="2024-12-29T17:53:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- com.vero.testcases.TC_HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -10,9 +10,18 @@ public class HashMapMethods {
 	public void checkHashMapMethods()
 	{
 		
+		map.put('c', 1);
+		map.put('s', 3);
+		
+		System.out.println(map);
 	}
 	
 	
+	public static void main(String[] args)
+	{
+		HashMapMethods obj = new HashMapMethods();
+		obj.checkHashMapMethods();
+	}
 	
 
 }

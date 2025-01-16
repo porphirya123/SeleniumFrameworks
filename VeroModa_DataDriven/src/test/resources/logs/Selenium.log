@@ -1,0 +1,8 @@
+2024-12-27 20:08:30,170 +0530 [main] DEBUG (BaseClass.java:33) - Config file uploaded
+2024-12-27 20:08:30,174 +0530 [main] DEBUG (BaseClass.java:38) - Or file uploaded
+2024-12-27 20:08:31,840 +0530 [main] DEBUG (BaseClass.java:44) - Chrome browser intentiated
+2024-12-27 20:08:32,385 +0530 [main] DEBUG (BaseClass.java:58) - Website launched
+2024-12-27 20:08:32,452 +0530 [main] DEBUG (BaseClass.java:60) - Browser got maximized
+2024-12-27 20:08:32,459 +0530 [main] DEBUG (BaseClass.java:62) - Implicit wait time got added
+2024-12-27 20:08:32,631 +0530 [main] DEBUG (Customer.java:14) - User clicked on Customer Login button
+2024-12-27 20:08:32,632 +0530 [main] DEBUG (Customer.java:16) - User clicked on User dropdown

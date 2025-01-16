@@ -1,0 +1,10 @@
+2025-01-01 20:35:55,922 +0530 [main] DEBUG (Baseclass.java:36) - config file loaded
+2025-01-01 20:35:55,925 +0530 [main] DEBUG (Baseclass.java:41) - or property file loaded success
+2025-01-01 20:35:57,565 +0530 [main] DEBUG (Baseclass.java:49) - Chrome Browser launched
+2025-01-01 20:35:58,216 +0530 [main] DEBUG (Baseclass.java:58) - Website launched
+2025-01-01 20:35:58,277 +0530 [main] DEBUG (Baseclass.java:60) - Window got maximized
+2025-01-01 20:35:58,288 +0530 [main] DEBUG (Baseclass.java:62) - Implicit wait added
+2025-01-01 20:35:58,463 +0530 [main] DEBUG (TC_AddCustomer.java:16) - Clicked on Customer Login link
+2025-01-01 20:35:58,649 +0530 [main] DEBUG (TC_AddCustomer.java:18) - Clicked on Your Name dropdown link
+2025-01-01 20:35:58,775 +0530 [main] DEBUG (TC_AddCustomer.java:20) - Home link clicked
+2025-01-01 20:35:58,982 +0530 [main] DEBUG (Baseclass.java:72) - Browser got closed
