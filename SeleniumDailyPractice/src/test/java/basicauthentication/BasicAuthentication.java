@@ -29,6 +29,18 @@ public class BasicAuthentication {
 		driver.quit();
 		
 	}
+	
+	public static void checkBasic()
+	{
+		
+		WebDriver driver = new ChromeDriver();
+		((HasAuthentication)driver).register(UsernameAndPassword.of("admin", "admin"));
+		
+		
+		
+	}
+	
+	
 	}
 	
 

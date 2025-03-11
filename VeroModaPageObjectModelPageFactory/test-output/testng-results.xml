@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test verification added]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-21T22:13:41 IST" name="Suite" finished-at="2025-01-21T22:14:27 IST" duration-ms="46488">
+    <groups>
+    </groups>
+    <test started-at="2025-01-21T22:13:41 IST" name="Login" finished-at="2025-01-21T22:14:15 IST" duration-ms="34494">
+      <class name="com.veromoda.testcases.TC01_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.veromoda.testcases.TC01_LoginTest@fd07cbb]" started-at="2025-01-21T22:13:41 IST" name="setup" finished-at="2025-01-21T22:14:12 IST" duration-ms="31690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.veromoda.testcases.TC01_LoginTest@fd07cbb]" started-at="2025-01-21T22:14:13 IST" name="loginTest" finished-at="2025-01-21T22:14:13 IST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.veromoda.testcases.TC01_LoginTest@fd07cbb]" started-at="2025-01-21T22:14:14 IST" name="teardown" finished-at="2025-01-21T22:14:15 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.veromoda.testcases.TC01_LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2025-01-21T22:14:15 IST" name="Cart" finished-at="2025-01-21T22:14:27 IST" duration-ms="11969">
+      <class name="com.veromoda.testcases.TC02_Cart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.veromoda.testcases.TC02_Cart@40cb8df7]" started-at="2025-01-21T22:14:15 IST" name="setup" finished-at="2025-01-21T22:14:21 IST" duration-ms="6150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="callCartActions()[pri:0, instance:com.veromoda.testcases.TC02_Cart@40cb8df7]" started-at="2025-01-21T22:14:21 IST" name="callCartActions" finished-at="2025-01-21T22:14:26 IST" duration-ms="4067" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test verification added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- callCartActions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.veromoda.testcases.TC02_Cart@40cb8df7]" started-at="2025-01-21T22:14:26 IST" name="teardown" finished-at="2025-01-21T22:14:27 IST" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.veromoda.testcases.TC02_Cart -->
+    </test> <!-- Cart -->
+  </suite> <!-- Suite -->
+</testng-results>

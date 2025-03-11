@@ -1,0 +1,11 @@
+2025-02-07 20:33:22,582 +0530 [main] DEBUG (BaseClass.java:56) - config property file loaded
+2025-02-07 20:33:22,586 +0530 [main] DEBUG (BaseClass.java:60) - or property file loaded
+2025-02-07 20:33:26,432 +0530 [main] DEBUG (BaseClass.java:70) - Firefox Browser launched
+2025-02-07 20:33:26,732 +0530 [main] DEBUG (BaseClass.java:74) - Browser got maximized
+2025-02-07 20:33:28,271 +0530 [main] DEBUG (BaseClass.java:76) - Url got launched
+2025-02-07 20:33:28,281 +0530 [main] DEBUG (BaseClass.java:78) - Standard implicit wait got added
+2025-02-07 20:33:28,466 +0530 [main] DEBUG (TC_001_CustomerLogin.java:17) - User clicked on Customer Login Page
+2025-02-07 20:33:28,789 +0530 [main] DEBUG (TC_001_CustomerLogin.java:19) - user clicked on Your Name link
+2025-02-07 20:33:29,082 +0530 [main] DEBUG (TC_001_CustomerLogin.java:22) - User clicked on Home button
+2025-02-07 20:33:29,084 +0530 [main] DEBUG (UserListeners.java:21) - Test Case Passed
+2025-02-07 20:33:31,606 +0530 [main] DEBUG (BaseClass.java:95) - Browser got closed

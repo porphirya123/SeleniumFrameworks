@@ -1,0 +1,9 @@
+2025-02-17 20:38:21,004 +0530 [main] DEBUG (ProjectBaseClass.java:54) - Config file loaded
+2025-02-17 20:38:21,006 +0530 [main] DEBUG (ProjectBaseClass.java:59) - Or file loaded
+2025-02-17 20:38:24,279 +0530 [main] DEBUG (ProjectBaseClass.java:68) - Firefox Browser got loaded
+2025-02-17 20:38:24,554 +0530 [main] DEBUG (ProjectBaseClass.java:72) - Browser got maximized
+2025-02-17 20:38:25,728 +0530 [main] DEBUG (ProjectBaseClass.java:74) - website got launched
+2025-02-17 20:38:25,733 +0530 [main] DEBUG (ProjectBaseClass.java:76) - Wait time added to driver
+2025-02-17 20:38:25,887 +0530 [main] DEBUG (TC_01_LoginCustomer.java:15) - User clicked on Customer Login Page
+2025-02-17 20:38:26,135 +0530 [main] DEBUG (TC_01_LoginCustomer.java:17) - user clicked on Your Name link
+2025-02-17 20:38:26,161 +0530 [main] DEBUG (TC_01_LoginCustomer.java:19) - User clicked on Home button

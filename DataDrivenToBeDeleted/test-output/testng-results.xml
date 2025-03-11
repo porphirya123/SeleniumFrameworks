@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-17T20:38:25 IST" name="Suite" finished-at="2025-02-17T20:38:26 IST" duration-ms="613">
+    <groups>
+    </groups>
+    <test started-at="2025-02-17T20:38:25 IST" name="Test" finished-at="2025-02-17T20:38:26 IST" duration-ms="613">
+      <class name="com.demo.testcases.TC_01_LoginCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demo.testcases.TC_01_LoginCustomer@51dcb805]" started-at="2025-02-17T20:38:20 IST" name="setup" finished-at="2025-02-17T20:38:25 IST" duration-ms="4735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginCust()[pri:0, instance:com.demo.testcases.TC_01_LoginCustomer@51dcb805]" started-at="2025-02-17T20:38:25 IST" name="loginCust" finished-at="2025-02-17T20:38:26 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginCust -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demo.testcases.TC_01_LoginCustomer@51dcb805]" started-at="2025-02-17T20:38:26 IST" name="teardown" finished-at="2025-02-17T20:38:27 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demo.testcases.TC_01_LoginCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

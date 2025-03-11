@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.694">
+           time="2.301">
   <properties />
   
   
-            <testcase name="addCustomer" time="1.665" classname="com.pro.testcases.TC02_AddCustomerWithStaticValue" />
-                <testcase name="addCustomer" time="1.029" classname="com.pro.testcases.TC02_AddCustomerWithStaticValue" />
+            <testcase name="addCustomer" time="1.271" classname="com.pro.testcases.TC02_AddCustomerWithStaticValue" />
+                <testcase name="addCustomer" time="1.030" classname="com.pro.testcases.TC02_AddCustomerWithStaticValue" />
       
 </testsuite>

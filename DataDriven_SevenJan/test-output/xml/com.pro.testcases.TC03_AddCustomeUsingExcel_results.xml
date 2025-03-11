@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.605">
+           time="5.245">
   <properties />
   
   
-            <testcase name="addCustomer" time="1.630" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
-                <testcase name="addCustomer" time="1.641" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
-                <testcase name="addCustomer" time="0.830" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
-                <testcase name="addCustomer" time="0.915" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
-                <testcase name="addCustomer" time="1.589" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
+            <testcase name="addCustomer" time="1.255" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
+                <testcase name="addCustomer" time="0.825" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
+                <testcase name="addCustomer" time="1.438" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
+                <testcase name="addCustomer" time="0.573" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
+                <testcase name="addCustomer" time="1.154" classname="com.pro.testcases.TC03_AddCustomeUsingExcel" />
       
 </testsuite>
