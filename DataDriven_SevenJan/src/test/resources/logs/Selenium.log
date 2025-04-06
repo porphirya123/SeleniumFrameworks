@@ -1,8 +1,6 @@
-2025-02-17 20:18:18,538 +0530 [main] DEBUG (ProjectBaseClass.java:56) - Config file loaded
-2025-02-17 20:18:18,540 +0530 [main] DEBUG (ProjectBaseClass.java:61) - Or file loaded
-2025-02-17 20:18:20,242 +0530 [main] DEBUG (ProjectBaseClass.java:68) - Chrome Driver loaded
-2025-02-17 20:18:20,302 +0530 [main] DEBUG (ProjectBaseClass.java:85) - Browser got maximized
-2025-02-17 20:18:20,835 +0530 [main] DEBUG (ProjectBaseClass.java:87) - Website launched
-2025-02-17 20:18:20,838 +0530 [main] DEBUG (ProjectBaseClass.java:89) - Implicit Wait got added
-2025-02-17 20:18:21,169 +0530 [main] DEBUG (TC01_CustomerLogin.java:28) - Clicked on Customer Login
-2025-02-17 20:18:21,226 +0530 [main] DEBUG (TC01_CustomerLogin.java:30) - Clicked on home link
+2025-03-19 16:34:18,563 +0530 [main] DEBUG (ProjectBaseClass.java:56) - Config file loaded
+2025-03-19 16:34:18,566 +0530 [main] DEBUG (ProjectBaseClass.java:61) - Or file loaded
+2025-03-19 16:34:22,654 +0530 [main] DEBUG (ProjectBaseClass.java:68) - Chrome Driver loaded
+2025-03-19 16:34:22,711 +0530 [main] DEBUG (ProjectBaseClass.java:85) - Browser got maximized
+2025-03-19 16:34:31,631 +0530 [main] DEBUG (ProjectBaseClass.java:87) - Website launched
+2025-03-19 16:34:31,636 +0530 [main] DEBUG (ProjectBaseClass.java:89) - Implicit Wait got added

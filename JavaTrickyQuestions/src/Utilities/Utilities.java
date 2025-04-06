@@ -4,6 +4,14 @@ import java.util.Scanner;
 
 public class Utilities {
 	
+	public static String takeString()
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter your desired String ");
+		String txt = input.nextLine();
+		return txt;
+	}
+	
 	public static int takeIntInput()
 	{
 		Scanner input = new Scanner(System.in);
